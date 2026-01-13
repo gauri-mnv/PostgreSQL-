@@ -145,6 +145,136 @@ PostgreSQL & Backend Learner
 📌 Next Work in Progress: PostgreSQL Advanced (Joins, Indexes, Transactions)
 
 
+# 📘 PostgreSQL Advanced Concepts (Joins, Indexing & Transactions)
+
+This section demonstrates hands-on practice of **PostgreSQL Advanced concepts** including joins, indexing, relationships, subqueries, and transactions with real execution screenshots.
+
+---
+
+## 🔹 SELECT Query
+
+**Definition:**
+The `SELECT` statement is used to fetch data from one or more tables.
+
+![SELECT](https://i.ibb.co/S4hNvLCw/select.png)
+
+---
+
+## 🔹 Table Relationships
+
+**Definition:**
+Relationships define how tables are connected using primary and foreign keys.
+
+### One-to-One / One-to-Many Relationships
+
+![Relation](https://i.ibb.co/d0YBPSYW/rela1.png)
+![Relation](https://i.ibb.co/Q7nRVG16/rel2.png)
+![Relation](https://i.ibb.co/tM55T62D/rel4.png)
+![Relation](https://i.ibb.co/4ZFBFPXM/rel5.png)
+![Relation](https://i.ibb.co/RkZqZ6zd/rel6.png)
+
+---
+
+## 🔹 Many-to-Many Relationship
+
+**Definition:**
+A many-to-many relationship is implemented using a junction (mapping) table.
+
+![Many to Many](https://i.ibb.co/5WDL1r8H/MANY-TO-MANY.png)
+
+---
+
+## 🔹 JOIN Operations
+
+**Definition:**
+Joins are used to combine rows from multiple tables based on related columns.
+
+### INNER JOIN
+
+Returns only matching records from both tables.
+
+![Inner Join](https://i.ibb.co/k6564vJz/innerjoin.png)
+![Inner Join](https://i.ibb.co/602yGHP5/Inner-Join1.png)
+
+---
+
+### LEFT JOIN
+
+Returns all records from the left table and matching records from the right table.
+
+![Left Join](https://i.ibb.co/tTtdD0j4/LEFTJOIN1.png)
+
+---
+
+### RIGHT JOIN
+
+Returns all records from the right table and matching records from the left table.
+
+![Right Join](https://i.ibb.co/99tbN1Yq/right-Join.png)
+
+---
+
+### CROSS JOIN
+
+Returns the Cartesian product of both tables.
+
+![Cross Join](https://i.ibb.co/TqkqfrCF/cross-join.png)
+
+---
+
+### JOIN Overview
+
+![Join Overview](https://i.ibb.co/Q3FVhqvy/join.png)
+
+---
+
+## 🔹 CASE Statement
+
+**Definition:**
+The `CASE` statement is used to apply conditional logic in SQL queries.
+
+![CASE](https://i.ibb.co/F4CnDHq9/case1.png)
+![CASE](https://i.ibb.co/v6fCN03J/case2.png)
+![CASE](https://i.ibb.co/gMdxJCM2/case4.png)
+![CASE](https://i.ibb.co/CsTXqVKv/case5.png)
+
+---
+
+## 🔹 Subqueries
+
+**Definition:**
+A subquery is a query nested inside another query.
+
+![Subquery](https://i.ibb.co/F4zj7XSN/subquery.png)
+
+---
+
+## 🔹 NOT IN Clause
+
+**Definition:**
+`NOT IN` is used to exclude records that match values from another query.
+
+![NOT IN](https://i.ibb.co/gFrzJwQF/NOT-IN.png)
+
+---
+
+## 🔹 Indexing
+
+**Definition:**
+Indexes improve query performance by reducing data scan time.
+
+![Indexing](https://i.ibb.co/CptmN5B4/Indexing.png)
+![Index Example](https://i.ibb.co/7J1h3gKz/index2.png)
+
+---
+
+## 🔹 Transactions
+
+**Definition:**
+Transactions ensure data consistency by executing queries as a single unit (ACID properties).
+
+![Transaction](https://i.ibb.co/6zPg09v/transaction.png)
+![Transaction](https://i.ibb.co/k2TfhTrX/transaction2.png)
 
 
 <!-- https://i.ibb.co/fGrd3kct/change-db.png
